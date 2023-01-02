@@ -1,0 +1,61 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/7a0e9335be.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<title>Form Styling</title>
+</head>
+
+<body class="body-form">
+  <div class="container">
+    <div class="top-navigation">
+      <div class="top-navigation-logo">
+        <img src="./assets/delorean.png" alt="DeLorean's logo"
+            class="nav-logo"></a>
+      </div>
+      <div class="top-navigation-name">
+          <a href="https://www.basketball-reference.com/teams/LAC/2023.html">DeLorean's Album Sales</a>
+      </div>
+      <div class="top-navigation-socials">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+
+  <div class="container-form">
+    <div class="form-wrap">
+      <h1>Contact Us</h1>
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="name" name="name" placeholder="DeLorean Thomas" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="yah@gmail.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="10" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="Priority">Priority</label>
+          <select name="gender" id="gender">
+            <option value="HP">Urgent</option>
+            <option value="Standard">Standard</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+        <button type="reset" class="button">Reset</button>
+      </form>
+    </div>
+
+    <div class="footer-form">
+      <p> Black to the Future &copy; 2023, All Rights Reserved</p>
+    </div>
+  </div>
+</body>
+</html>

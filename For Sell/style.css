@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body, 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 5em;
+  margin-bottom: 2em;
+  background-color: black;
+}
+
+.top-navigation-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-logo {
+  width: 70px;
+  margin-right: 2em;
+}
+
+.top-navigation-name {
+  display: flex;
+  align-items: center;
+  font-size: 3em;
+}
+
+.top-navigation-name a {
+  text-decoration: none;
+  color: red;
+  display: flex;
+  gap: 1em;
+}
+
+.top-navigation-name a:hover {
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  gap: 1em;
+  font-size: larger;
+}
+
+.top-navigation-socials {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.top-navigation-socials i {
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  padding: 0.5em;
+}
+
+.top-navigation-socials i:hover {
+  font-size: 40px;
+  color: white;
+  padding: 0.5em;
+}
+
+.home-page-header {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.body-header-description {
+  font-size: .75em;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: 25fr 25fr 25fr 25fr;
+  column-gap: 3%;
+  row-gap: 10%;
+  text-align: center;
+  padding: 0em 2em;
+  margin-bottom: 6em;
+}
+
+.album {
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 2%;
+}
+
+
+.album-images {
+  width: 100%;
+}
+
+.album a{
+  text-decoration: none;
+  color: red;
+}
+
+.album a:hover{
+  text-decoration: underline;
+  color: white;
+  font-size: larger;
+}
+
+.artist {
+  color: white;
+  margin-top: .50em;
+  font-size: 1em;
+}
+
+.buy-now-button {
+  margin: .5em;
+  padding: .2em;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 10%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 5em;
+  text-align: center;
+  color: red;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.footer-button {
+  background: white;
+  color: red;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: .5em;
+  border: 1px solid black;
+  border-radius: 3%;
+}
+
+.footer-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-button a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.body-form {
+  line-height: 1.5;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+}
+
+a:hover {
+  font-size: large;
+  color: #ff7b7b;
+}
+
+.container-form {
+  max-width: 1440px;
+  margin: auto;
+  padding: 1em;
+}
+
+.form-wrap {
+  background-color: red;
+  margin: auto;
+  margin-top: 2em;
+  padding: .5em 1em;
+  max-width: 30%;
+  border-radius: .4em;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-wrap {
+   width: 27%;
+  }
+  body {
+    font-size: larger;
+  }
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+  margin-bottom: .5em;
+ 
+}
+
+.form-wrap p {
+  margin-bottom: 1.5em;
+}
+
+.form-wrap .form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-wrap .form-group input, select, textarea {
+  width: 100%;
+  padding: .25em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px black solid;
+}
+
+.form-wrap button {
+  display: block;
+  width: 100%;
+  padding: .25em .1em;
+  background: white;
+  border: 0;
+  border-radius: .3em;
+  color: black;
+  font-size: 100%;
+  margin-top: .5em;
+}
+
+.form-wrap button:hover {
+  background: black;
+  color: red;
+  cursor: pointer;
+}
+
+.form-wrap .bottom-text {
+  margin: 1em 0 .3em 0;
+  font-size: 75%;
+}
+
+.footer-form {
+  display: block;
+  margin-top: 5em;
+  text-align: center;
+  color: red;
+}
